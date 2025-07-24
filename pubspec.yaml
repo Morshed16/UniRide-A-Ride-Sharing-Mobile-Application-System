@@ -1,0 +1,27 @@
+name: grab_clone
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1             # For date/time formatting
+  cupertino_icons: ^1.0.8  # iOS-style icons
+  geolocator: ^10.1.0      # For location detection
+  geocoding: ^2.1.0        # For converting coordinates to address
+  flutter_typeahead: ^4.8.0  # For destination suggestions
+  google_fonts: ^6.2.0     # Clean, modern fonts like Poppins
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
